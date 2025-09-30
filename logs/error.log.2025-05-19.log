@@ -1,0 +1,26 @@
+[2025-05-19T22:10:36.877] [ERROR] error - ReferenceError: abcd is not defined
+    at getUser (D:\Code\Frontend\AIGC-NODE\controller\user.js:9:5)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at filter (D:\Code\Frontend\AIGC-NODE\node_modules\koa-json\index.js:25:12)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:11) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-19T22:10:50.768] [ERROR] error - ReferenceError: abcd is not defined
+    at getUser (D:\Code\Frontend\AIGC-NODE\controller\user.js:9:5)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at filter (D:\Code\Frontend\AIGC-NODE\node_modules\koa-json\index.js:25:12)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:11) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

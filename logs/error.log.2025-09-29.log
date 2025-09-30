@@ -1,0 +1,277 @@
+[2025-09-29T11:13:36.896] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'fila',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:13:41.565] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:14:03.472] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:14:53.704] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:15:51.415] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:15:54.883] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:18:59.435] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:20:04.193] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:22:01.205] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:22:10.629] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'fila',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:22:18.594] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:22:29.477] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:22:31.441] [ERROR] error - Error: Malformed part header
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1009:22)
+    at IncomingMessage.emit (node:events:518:28)
+    at Readable.read (node:internal/streams/readable:782:10) {
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:22:38.762] [ERROR] error - MulterError: Field name missing
+    at abortWithCode (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:85:22)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:90:37)
+    at Multipart.emit (node:events:518:28)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:537:16)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10) {
+  code: 'MISSING_FIELD_NAME',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:23:57.895] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:27:20.412] [ERROR] error - {
+  msg: '未检测到文件，请选择一张图片上传',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:28:45.284] [ERROR] error - {
+  msg: '未检测到文件，请选择一张图片上传',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:28:54.450] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'fila',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:32:18.958] [ERROR] error - MulterError: Field name missing
+    at abortWithCode (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:85:22)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:90:37)
+    at Multipart.emit (node:events:518:28)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:537:16)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10) {
+  code: 'MISSING_FIELD_NAME',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T11:33:25.457] [ERROR] error - MulterError: Field name missing
+    at abortWithCode (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:85:22)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:90:37)
+    at Multipart.emit (node:events:518:28)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:537:16)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10) {
+  code: 'MISSING_FIELD_NAME',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T19:46:57.418] [ERROR] error - {
+  msg: '缺少departure字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-29T19:55:37.319] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

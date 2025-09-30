@@ -1,0 +1,270 @@
+[2025-05-28T14:49:24.083] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T14:56:37.857] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T14:58:06.775] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:35:33.645] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:36:10.706] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:38:18.640] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:38:41.524] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:40:11.793] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:40:20.699] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:40:34.183] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:41:36.396] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:41:41.571] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:42:27.705] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:43:14.287] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:45:00.427] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:45:04.117] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:45:13.730] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T21:45:21.776] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-28T22:10:31.402] [ERROR] error - BadRequestError: 400 Invalid type for 'messages.[0].content': expected one of a string or array of objects, but got an object instead.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:22:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 28 May 2025 14:10:30 GMT',
+    'req-arrive-time': '1748441430587',
+    'req-cost-time': '24',
+    'resp-start-time': '1748441430612',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=64db9e2c-9acc-9e9b-9308-bca5851c1e2ef43885b107592a8a434602cf67a581af;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '22',
+    'x-request-id': '64db9e2c-9acc-9e9b-9308-bca5851c1e2e',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '64db9e2c-9acc-9e9b-9308-bca5851c1e2e',
+  error: {
+    code: 'invalid_type',
+    param: "'messages.[0].content'",
+    message: "Invalid type for 'messages.[0].content': expected one of a string or array of objects, but got an object instead.",
+    type: 'invalid_request_error'
+  },
+  code: 'invalid_type',
+  param: "'messages.[0].content'",
+  type: 'invalid_request_error'
+}
+[2025-05-28T22:10:40.728] [ERROR] error - BadRequestError: 400 Invalid type for 'messages.[0].content': expected one of a string or array of objects, but got an object instead.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:22:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 28 May 2025 14:10:39 GMT',
+    'req-arrive-time': '1748441439912',
+    'req-cost-time': '27',
+    'resp-start-time': '1748441439939',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=748d44ef-89a0-9986-9dac-5ce4299ffb4bf015fa18d2cc52e9a18c45922ce35966;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '26',
+    'x-request-id': '748d44ef-89a0-9986-9dac-5ce4299ffb4b',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '748d44ef-89a0-9986-9dac-5ce4299ffb4b',
+  error: {
+    code: 'invalid_type',
+    param: "'messages.[0].content'",
+    message: "Invalid type for 'messages.[0].content': expected one of a string or array of objects, but got an object instead.",
+    type: 'invalid_request_error'
+  },
+  code: 'invalid_type',
+  param: "'messages.[0].content'",
+  type: 'invalid_request_error'
+}
+[2025-05-28T22:11:22.948] [ERROR] error - BadRequestError: 400 Invalid type for 'messages.[0].content': expected one of a string or array of objects, but got an object instead.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:22:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 28 May 2025 14:11:21 GMT',
+    'req-arrive-time': '1748441482131',
+    'req-cost-time': '32',
+    'resp-start-time': '1748441482164',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=70efad5c-6d05-973b-aae5-bfbbc03c92529351e4e1c6ce5331190177cfb7e7c150;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '31',
+    'x-request-id': '70efad5c-6d05-973b-aae5-bfbbc03c9252',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '70efad5c-6d05-973b-aae5-bfbbc03c9252',
+  error: {
+    code: 'invalid_type',
+    param: "'messages.[0].content'",
+    message: "Invalid type for 'messages.[0].content': expected one of a string or array of objects, but got an object instead.",
+    type: 'invalid_request_error'
+  },
+  code: 'invalid_type',
+  param: "'messages.[0].content'",
+  type: 'invalid_request_error'
+}
+[2025-05-28T22:19:00.156] [ERROR] error - BadRequestError: 400 Invalid type for 'messages.[0].content': expected one of a string or array of objects, but got an object instead.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:22:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 28 May 2025 14:18:59 GMT',
+    'req-arrive-time': '1748441939341',
+    'req-cost-time': '30',
+    'resp-start-time': '1748441939371',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=86db96a1-d7ec-95be-9332-56db32e30a6cb5d5156de79af2cd86fdac944847a9b2;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '29',
+    'x-request-id': '86db96a1-d7ec-95be-9332-56db32e30a6c',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '86db96a1-d7ec-95be-9332-56db32e30a6c',
+  error: {
+    code: 'invalid_type',
+    param: "'messages.[0].content'",
+    message: "Invalid type for 'messages.[0].content': expected one of a string or array of objects, but got an object instead.",
+    type: 'invalid_request_error'
+  },
+  code: 'invalid_type',
+  param: "'messages.[0].content'",
+  type: 'invalid_request_error'
+}
+[2025-05-28T22:28:05.687] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'tool_calls')
+    at chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:54:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

@@ -1,0 +1,35 @@
+[2025-05-22T13:49:39.821] [ERROR] error - SyntaxError: Unexpected token '帮', ..."content": 帮我查询昆明市到广州"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\Code\Frontend\AIGC-NODE\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async parseBody (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:67:19)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  body: '{\r\n' +
+    '  "chatMessages": [\r\n' +
+    '    {\r\n' +
+    '      "role": "assistant",\r\n' +
+    '      "content": "好的？"\r\n' +
+    '    },\r\n' +
+    '     {\r\n' +
+    '      "role": "user",\r\n' +
+    '      "content": 帮我查询昆明市到广州市，2025年5月22日的火车票"\r\n' +
+    '    }\r\n' +
+    '  ]\r\n' +
+    '}\r\n',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-22T14:08:53.423] [ERROR] error - ReferenceError: choices is not defined
+    at chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:81:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

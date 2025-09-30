@@ -1,0 +1,140 @@
+[2025-05-25T13:49:32.781] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'status')
+    at queryWeather (D:\Code\Frontend\AIGC-NODE\controller\callToolController.js:57:26)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-25T13:49:49.342] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'status')
+    at queryWeather (D:\Code\Frontend\AIGC-NODE\controller\callToolController.js:57:26)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-25T16:58:33.438] [ERROR] error - BadRequestError: 400 roleSystem is not one of ['system', 'assistant', 'user', 'tool', 'function'] - 'messages.['0].role'
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:22:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Sun, 25 May 2025 08:58:30 GMT',
+    'req-arrive-time': '1748163511138',
+    'req-cost-time': '29',
+    'resp-start-time': '1748163511168',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=6dc45e46-d1a0-9876-987a-f86730fd21e77cf304ea89523399fbeffa5fb4c297e8;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '29',
+    'x-request-id': '6dc45e46-d1a0-9876-987a-f86730fd21e7',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '6dc45e46-d1a0-9876-987a-f86730fd21e7',
+  error: {
+    code: null,
+    param: null,
+    message: "roleSystem is not one of ['system', 'assistant', 'user', 'tool', 'function'] - 'messages.['0].role'",
+    type: 'invalid_request_error'
+  },
+  code: null,
+  param: null,
+  type: 'invalid_request_error'
+}
+[2025-05-25T17:01:58.546] [ERROR] error - BadRequestError: 400 你是法律查询小助手，名叫法宝。职责包括协助用户查询法律法规、提供法律咨询和建议，解答法律相关问题。
+            若用户提问非法律相关话题，回复:非常抱歉，我现在回答不了这个问题，如果您有关于法律的问题，
+            欢迎随时向我咨询哦!祝您生活愉快!。其他情况不予回复。 is not one of ['system', 'assistant', 'user', 'tool', 'function'] - 'messages.['0].role'
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:24:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Sun, 25 May 2025 09:01:56 GMT',
+    'req-arrive-time': '1748163716256',
+    'req-cost-time': '23',
+    'resp-start-time': '1748163716279',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=6e61a895-1e9f-9738-8086-22e8949951c6c013953ed13274a7a7b32aa875413c58;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '22',
+    'x-request-id': '6e61a895-1e9f-9738-8086-22e8949951c6',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '6e61a895-1e9f-9738-8086-22e8949951c6',
+  error: {
+    code: null,
+    param: null,
+    message: '你是法律查询小助手，名叫法宝。职责包括协助用户查询法律法规、提供法律咨询和建议，解答法律相关问题。\n' +
+      '            若用户提问非法律相关话题，回复:非常抱歉，我现在回答不了这个问题，如果您有关于法律的问题，\n' +
+      "            欢迎随时向我咨询哦!祝您生活愉快!。其他情况不予回复。 is not one of ['system', 'assistant', 'user', 'tool', 'function'] - 'messages.['0].role'",
+    type: 'invalid_request_error'
+  },
+  code: null,
+  param: null,
+  type: 'invalid_request_error'
+}
+[2025-05-25T17:02:51.870] [ERROR] error - BadRequestError: 400 你是法律查询小助手，名叫法宝。职责包括协助用户查询法律法规、提供法律咨询和建议，解答法律相关问题。
+            若用户提问非法律相关话题，回复:非常抱歉，我现在回答不了这个问题，如果您有关于法律的问题，
+            欢迎随时向我咨询哦!祝您生活愉快!。其他情况不予回复。 is not one of ['system', 'assistant', 'user', 'tool', 'function'] - 'messages.['0].role'
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:24:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Sun, 25 May 2025 09:02:49 GMT',
+    'req-arrive-time': '1748163769579',
+    'req-cost-time': '25',
+    'resp-start-time': '1748163769605',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=b5b47280-b29b-952b-a7ec-9e7af47a043c6d7c99f8d107605a7310a03f8d0bd3c6;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '24',
+    'x-request-id': 'b5b47280-b29b-952b-a7ec-9e7af47a043c',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'b5b47280-b29b-952b-a7ec-9e7af47a043c',
+  error: {
+    code: null,
+    param: null,
+    message: '你是法律查询小助手，名叫法宝。职责包括协助用户查询法律法规、提供法律咨询和建议，解答法律相关问题。\n' +
+      '            若用户提问非法律相关话题，回复:非常抱歉，我现在回答不了这个问题，如果您有关于法律的问题，\n' +
+      "            欢迎随时向我咨询哦!祝您生活愉快!。其他情况不予回复。 is not one of ['system', 'assistant', 'user', 'tool', 'function'] - 'messages.['0].role'",
+    type: 'invalid_request_error'
+  },
+  code: null,
+  param: null,
+  type: 'invalid_request_error'
+}

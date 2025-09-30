@@ -1,0 +1,10 @@
+[2025-06-06T13:28:30.228] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'tool_calls')
+    at chatMessage (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:54:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

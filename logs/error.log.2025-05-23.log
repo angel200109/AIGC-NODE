@@ -1,0 +1,236 @@
+[2025-05-23T13:38:45.886] [ERROR] error - {
+  msg: '请上传正确格式的文件',
+  code: 442,
+  validate: null,
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T13:40:46.726] [ERROR] error - {
+  msg: '请上传正确格式的文件',
+  code: 442,
+  validate: null,
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T13:46:13.095] [ERROR] error - {
+  msg: '请上传正确格式的文件',
+  code: 442,
+  validate: null,
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T13:46:35.575] [ERROR] error - {
+  msg: '请上传正确格式的文件',
+  code: 442,
+  validate: null,
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:01:36.939] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'filex',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:01:39.879] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'filex',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:02:00.288] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'filex',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:02:35.775] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'filex',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:05:11.611] [ERROR] error - {
+  msg: '请上传正常的图片（字段错误）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:05:20.908] [ERROR] error - {
+  msg: '请上传正常的图片（字段错误）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:05:30.468] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:05:58.174] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:06:49.026] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:07:42.162] [ERROR] error - {
+  msg: '请上传正常的图片（字段错误）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:07:53.010] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'fil',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:08:25.034] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'fil',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:09:31.856] [ERROR] error - {
+  msg: '请上传正常的图片（字段错误）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:09:51.001] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:11:46.971] [ERROR] error - {
+  msg: '请上传正确的图片（字段缺失）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:12:19.356] [ERROR] error - {
+  msg: '请上传正确的图片（字段缺失）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:12:41.555] [ERROR] error - {
+  msg: '请上传正确的图片（字段缺失）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-23T14:13:33.148] [ERROR] error - {
+  msg: '请上传正确的图片（字段缺失）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

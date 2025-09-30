@@ -1,0 +1,257 @@
+[2025-05-20T10:54:25.637] [ERROR] error - {
+  msg: 'name必须是字符串类型',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T10:54:57.623] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T10:55:04.185] [ERROR] error - {
+  msg: 'name必须是字符串类型',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T10:57:53.037] [ERROR] error - TypeError: Validate.undefinedCheck is not a function
+    at postUser (D:\Code\Frontend\AIGC-NODE\controller\user.js:17:20)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at filter (D:\Code\Frontend\AIGC-NODE\node_modules\koa-json\index.js:25:12)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:11) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T10:58:19.395] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'trim')
+    at Validate.nullCheck (D:\Code\Frontend\AIGC-NODE\validators\index.js:10:15)
+    at postUser (D:\Code\Frontend\AIGC-NODE\controller\user.js:18:20)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at filter (D:\Code\Frontend\AIGC-NODE\node_modules\koa-json\index.js:25:12)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T10:58:48.010] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'trim')
+    at Validate.nullCheck (D:\Code\Frontend\AIGC-NODE\validators\index.js:10:15)
+    at postUser (D:\Code\Frontend\AIGC-NODE\controller\user.js:18:20)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at filter (D:\Code\Frontend\AIGC-NODE\node_modules\koa-json\index.js:25:12)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:04:09.032] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:08:54.510] [ERROR] error - {
+  msg: '姓名不能为空',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:11:18.385] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:13:19.710] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:16:28.546] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:20:13.048] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:20:28.701] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:20:37.543] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:21:18.870] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:22:24.132] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:22:43.821] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'trim')
+    at Validate.nonEmptyString (D:\Code\Frontend\AIGC-NODE\validators\index.js:12:15)
+    at postUser (D:\Code\Frontend\AIGC-NODE\controller\userController.js:16:20)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:261:18
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\router\lib\router.js:266:33)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at filter (D:\Code\Frontend\AIGC-NODE\node_modules\koa-json\index.js:25:12)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:23:59.808] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:24:16.889] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:24:20.546] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:27:31.261] [ERROR] error - {
+  msg: '姓名不能为空',
+  code: 422,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:27:47.219] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:28:47.504] [ERROR] error - {
+  msg: '姓名不能为空',
+  code: 422,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T11:30:47.336] [ERROR] error - {
+  msg: 'name字段必填',
+  code: 400,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T15:08:00.988] [ERROR] error - SyntaxError: Expected property name or '}' in JSON at position 7 (line 2 column 5)
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\Code\Frontend\AIGC-NODE\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async parseBody (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:67:19)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  body: `{\r\n    'chatMessages' :{ role: "user", content: "你是谁？" },\r\n}`,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T15:08:59.237] [ERROR] error - SyntaxError: Expected property name or '}' in JSON at position 7 (line 2 column 5)
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\Code\Frontend\AIGC-NODE\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async parseBody (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:67:19)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  body: '{\r\n' +
+    "    'chatMessages' :[\r\n" +
+    '        { role: "user", content: "你是谁？" }\r\n' +
+    '        ],\r\n' +
+    '}',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T15:10:40.868] [ERROR] error - SyntaxError: Expected property name or '}' in JSON at position 7 (line 2 column 5)
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\Code\Frontend\AIGC-NODE\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async parseBody (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:67:19)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  body: '{\r\n' +
+    "    'chatMessages' :[\r\n" +
+    '        { role: "user", content: "你是谁？" }\r\n' +
+    '        ]\r\n' +
+    '}',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T15:17:34.278] [ERROR] error - SyntaxError: Unexpected token ']', ..."    },
+  ]
+}
+" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at exports.parse (D:\Code\Frontend\AIGC-NODE\node_modules\@hapi\bourne\lib\index.js:19:22)
+    at parse (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:59:19)
+    at module.exports [as json] (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async parseBody (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:67:19)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  body: '{\r\n' +
+    '  "chatMessages": [\r\n' +
+    '    {\r\n' +
+    '      "role": "user",\r\n' +
+    '      "content": "我叫安安咪，一只布偶猫"\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "role": "assistant",\r\n' +
+    '      "content": "好的？"\r\n' +
+    '    },\r\n' +
+    '     {\r\n' +
+    '      "role": "user",\r\n' +
+    '      "content": "我叫什么？"\r\n' +
+    '    },\r\n' +
+    '  ]\r\n' +
+    '}\r\n',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T15:34:41.990] [ERROR] error - SyntaxError: invalid JSON, only supports object and array
+    at parse (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:57:13)
+    at module.exports [as json] (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async parseBody (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:67:19)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  body: '\r\n',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-20T15:35:07.560] [ERROR] error - {
+  msg: '对话信息不能为空',
+  code: 422,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

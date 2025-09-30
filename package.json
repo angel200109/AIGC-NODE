@@ -1,0 +1,33 @@
+{
+  "name": "aigc-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/multer": "^3.1.0",
+    "@koa/router": "^13.1.0",
+    "axios": "^1.9.0",
+    "dayjs": "^1.11.18",
+    "dotenv": "^16.5.0",
+    "koa": "^3.0.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^13.0.1",
+    "koa-static": "^5.0.0",
+    "log4js": "^6.9.1",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.18.3",
+    "multer": "^2.0.0",
+    "openai": "^4.100.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+}

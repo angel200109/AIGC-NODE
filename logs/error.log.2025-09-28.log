@@ -1,0 +1,518 @@
+[2025-09-28T16:31:45.053] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T16:32:06.424] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T16:56:02.038] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:41:46.938] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:43:10.114] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:43:33.343] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:43:47.124] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:44:09.735] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:50:29.767] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:55:06.977] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:55:40.416] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:56:10.792] [ERROR] error - {
+  msg: '请上传正确格式的文件',
+  code: 442,
+  validate: null,
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:56:46.845] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:56:50.073] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T18:58:09.478] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:00:19.251] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:01:07.128] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:01:15.467] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:04:46.844] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:06:37.151] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:06:52.343] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:07:00.483] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:07:03.958] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:07:18.462] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:07:40.836] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:08:02.485] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:09:40.135] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:10:45.693] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:11:00.639] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:13:24.662] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:14:40.812] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:15:14.247] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:15:16.988] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:15:21.537] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:18:00.213] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:18:20.766] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'destination')
+    at uploadFile (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:113:38)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\multer\index.js:64:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:20:12.257] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'destination')
+    at uploadFile (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:113:38)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\multer\index.js:64:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:22:16.443] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'destination')
+    at uploadFile (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:113:38)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\multer\index.js:64:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:22:22.563] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'destination')
+    at uploadFile (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:113:38)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\multer\index.js:64:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:22:27.087] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'destination')
+    at uploadFile (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:113:38)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\multer\index.js:64:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:22:29.945] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'destination')
+    at uploadFile (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:113:38)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\multer\index.js:64:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:26:19.061] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:26:24.135] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:26:25.970] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:26:36.142] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:27:34.234] [ERROR] error - {
+  msg: "未检测到上传文件，请检查字段名是否为 'file' 或是否有上传图片",
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:27:55.933] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:27:59.028] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:28:34.089] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:28:49.394] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:29:21.877] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:29:42.286] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'destination')
+    at uploadFile (D:\Code\Frontend\AIGC-NODE\controller\chatController.js:109:38)
+    at dispatch (D:\Code\Frontend\AIGC-NODE\node_modules\koa-compose\index.js:42:32)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\@koa\multer\index.js:64:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:29:58.967] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:31:15.450] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:33:44.925] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:34:35.474] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:35:22.564] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:37:13.327] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:39:03.102] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:42:15.806] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:43:11.658] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:43:19.718] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:47:34.517] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:48:11.448] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:48:33.609] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:48:40.221] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:48:41.664] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:52:08.772] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:52:47.161] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:54:24.386] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:59:26.663] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T19:59:29.954] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T20:13:34.065] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T20:17:14.166] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T20:17:42.276] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-28T20:18:04.286] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'fila',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

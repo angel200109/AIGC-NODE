@@ -1,0 +1,55 @@
+[2025-06-08T15:28:49.612] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-06-08T15:30:18.756] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-06-08T15:36:46.998] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-06-08T15:37:39.985] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-06-08T16:25:34.908] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-06-08T16:49:45.272] [ERROR] error - SyntaxError: invalid JSON, only supports object and array
+    at parse (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:57:13)
+    at module.exports [as json] (D:\Code\Frontend\AIGC-NODE\node_modules\co-body\lib\json.js:43:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async parseBody (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:87:14)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:67:19)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  status: 400,
+  body: '"广州市"',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-06-08T16:49:59.737] [ERROR] error - {
+  msg: '缺少city字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-06-08T16:50:50.540] [ERROR] error - {
+  msg: '缺少city字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

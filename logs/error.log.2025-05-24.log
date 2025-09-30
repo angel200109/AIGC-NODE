@@ -1,0 +1,298 @@
+[2025-05-24T14:40:26.412] [ERROR] error - {
+  msg: '请上传正确的图片（字段缺失）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:41:11.360] [ERROR] error - {
+  msg: '请上传正确的图片（字段缺失）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:41:25.546] [ERROR] error - {
+  msg: '请上传正确的图片（字段缺失）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:41:59.833] [ERROR] error - {
+  msg: '请上传正确的图片（字段缺失）',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:44:10.465] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:44:17.199] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:44:38.316] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:44:47.620] [ERROR] error - {
+  msg: '请上传正确的图片',
+  code: 442,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:45:01.672] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:45:43.017] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:46:07.015] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:46:18.750] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T14:46:28.940] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (D:\Code\Frontend\AIGC-NODE\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Code\Frontend\AIGC-NODE\node_modules\multer\lib\make-middleware.js:121:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Code\Frontend\AIGC-NODE\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Code\Frontend\AIGC-NODE\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12) {
+  code: 'LIMIT_UNEXPECTED_FILE',
+  field: 'files',
+  storageErrors: [],
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:02:39.619] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:03:06.954] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:03:19.647] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:03:59.955] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:04:03.265] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:27:41.433] [ERROR] error - {
+  msg: '缺少departure字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:28:12.623] [ERROR] error - {
+  msg: '缺少departure字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:28:35.485] [ERROR] error - {
+  msg: '缺少departure字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:29:42.735] [ERROR] error - {
+  msg: '缺少departure字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:29:52.365] [ERROR] error - {
+  msg: '缺少departure字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:30:21.502] [ERROR] error - {
+  msg: '缺少departure字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T21:33:34.897] [ERROR] error - {
+  msg: '日期不能为空',
+  code: 422,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T22:44:53.185] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'res' -> object with constructor 'IncomingMessage'
+    --- property 'req' closes the circle
+    at JSON.stringify (<anonymous>)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\koa-json\index.js:50:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T22:45:24.484] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'res' -> object with constructor 'IncomingMessage'
+    --- property 'req' closes the circle
+    at JSON.stringify (<anonymous>)
+    at D:\Code\Frontend\AIGC-NODE\node_modules\koa-json\index.js:50:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T23:10:02.062] [ERROR] error - {
+  msg: '缺少city字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T23:10:34.758] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T23:14:15.775] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T23:17:28.959] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T23:29:35.286] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T23:30:21.891] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'status')
+    at queryWeather (D:\Code\Frontend\AIGC-NODE\controller\callToolController.js:58:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (D:\Code\Frontend\AIGC-NODE\config\responseHandler.js:19:3)
+    at async errorHandler (D:\Code\Frontend\AIGC-NODE\config\errorHandler.js:4:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T23:31:00.304] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-05-24T23:31:30.137] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
