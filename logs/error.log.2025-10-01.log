@@ -1,0 +1,150 @@
+[2025-10-01T16:59:31.168] [ERROR] error - CastError: Cast to ObjectId failed for value "68dbbc6fda935521ff2ec368"" (type string) at path "_id" for model "goods"
+    at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+    at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+    at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async goodsDetail (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:19:17) {
+  stringValue: '"68dbbc6fda935521ff2ec368""',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '68dbbc6fda935521ff2ec368"',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\bson\lib\bson.cjs:2538:23)
+      at castObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:249:12)
+      at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+      at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+      at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+      at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+      at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+      at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+      at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80),
+  valueType: 'string',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-01T17:00:41.964] [ERROR] error - CastError: Cast to ObjectId failed for value "68dbbc6fda935521ff2ec368"" (type string) at path "_id" for model "goods"
+    at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+    at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+    at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async goodsDetail (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:19:17) {
+  stringValue: '"68dbbc6fda935521ff2ec368""',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '68dbbc6fda935521ff2ec368"',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\bson\lib\bson.cjs:2538:23)
+      at castObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:249:12)
+      at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+      at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+      at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+      at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+      at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+      at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+      at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80),
+  valueType: 'string',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-01T17:00:55.058] [ERROR] error - CastError: Cast to ObjectId failed for value "68dbbc6fda935521ff2ec368"" (type string) at path "_id" for model "goods"
+    at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+    at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+    at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async goodsDetail (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:19:17) {
+  stringValue: '"68dbbc6fda935521ff2ec368""',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '68dbbc6fda935521ff2ec368"',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\bson\lib\bson.cjs:2538:23)
+      at castObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:249:12)
+      at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+      at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+      at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+      at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+      at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+      at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+      at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80),
+  valueType: 'string',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-01T17:01:00.901] [ERROR] error - CastError: Cast to ObjectId failed for value "68dbbc6fda935521ff2ec368"" (type string) at path "_id" for model "goods"
+    at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+    at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+    at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async goodsDetail (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:19:17) {
+  stringValue: '"68dbbc6fda935521ff2ec368""',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '68dbbc6fda935521ff2ec368"',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\bson\lib\bson.cjs:2538:23)
+      at castObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:249:12)
+      at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+      at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+      at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+      at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+      at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+      at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+      at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80),
+  valueType: 'string',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-01T17:01:27.186] [ERROR] error - CastError: Cast to ObjectId failed for value "68dbbc6fda935521ff2ec368"" (type string) at path "_id" for model "goods"
+    at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+    at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+    at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async goodsDetail (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:19:17) {
+  stringValue: '"68dbbc6fda935521ff2ec368""',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '68dbbc6fda935521ff2ec368"',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\bson\lib\bson.cjs:2538:23)
+      at castObjectId (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at SchemaObjectId.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schema\objectId.js:249:12)
+      at SchemaType.applySetters (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1258:12)
+      at SchemaType.castForQuery (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\schemaType.js:1694:17)
+      at cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\cast.js:390:32)
+      at Query.cast (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:5060:12)
+      at Query._castConditions (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2374:10)
+      at model.Query._findOne (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:2697:8)
+      at model.Query.exec (D:\Code\Frontend\AIGC-NODE\node_modules\mongoose\lib\query.js:4627:80),
+  valueType: 'string',
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

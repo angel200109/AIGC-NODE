@@ -1,31 +1,40 @@
 // 1. 加载配置和基础库
-require("dotenv").config(); // 加载环境变量
-const Koa = require("koa");
-const json = require("koa-json");
-const bodyParser = require("koa-bodyparser");
-const cors = require("@koa/cors");
-const static = require("koa-static");
-const path = require("path");
+import "dotenv/config.js"; // 加载环境变量
+import Koa from "koa";
+import json from "koa-json";
+import bodyParser from "koa-bodyparser";
+import cors from "@koa/cors";
+import serve from "koa-static";
+import path from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+import "@/config/database.js";
+
 const app = new Koa();
 
-// 2. 设置路径别名
-const { addAlias } = require("module-alias");
-addAlias("@", __dirname); // 设置文件别名，@映射为根目录
+// __dirname 替代写法 (因为 ESM 没有内置 __dirname)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// // 2. 设置路径别名 (注意：module-alias 在 ESM 下用不了，建议用 import-alias / tsconfig paths)
+// import { addAlias } from "module-alias";
+// addAlias("@", __dirname);
 
 // 3. 注册中间件
-const errorHandler = require("@/config/errorHandler.js");
-app.use(errorHandler); // 异常捕获中间件
-const responseHandler = require("./config/responseHandler.js");
-app.use(responseHandler); // 自定义响应格式中间件
+import errorHandler from "@/config/errorHandler.js";
+app.use(errorHandler);
+
+import responseHandler from "./config/responseHandler.js";
+app.use(responseHandler);
 
 // 4. 注册第三方中间件
-app.use(cors()); // 允许前端浏览器从"不同域名"访问你的后端（解决跨域问题）
-app.use(bodyParser()); // 自动解析POST、PUT请求中的数据，并挂到ctx.request.body
-app.use(json()); // 服务器返回的数据变成JSON格式
-app.use(static(path.join(__dirname))); // 静态资源目录，访问/images/xxx.jpg可以访问到images目录下的xxx.jpg文件
+app.use(cors());
+app.use(bodyParser()); // 自动将json数据转为js对象
+app.use(json());
+app.use(serve(path.join(__dirname))); // 静态资源目录
 
 // 5. 注册路由
-const router = require("@/routes/index.js");
+import router from "@/routes/index.js";
 app.use(router.routes()).use(router.allowedMethods());
 
 // 6. 启动服务

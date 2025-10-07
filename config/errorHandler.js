@@ -1,4 +1,5 @@
-const logger = require("@/config/logger");
+import * as logger from "@/config/logger.js";
+
 const errorHandler = async (ctx, next) => {
   try {
     await next();
@@ -18,9 +19,10 @@ const errorHandler = async (ctx, next) => {
       // 处理其他异常
       console.log(errorData.message);
       const error = errorData.message || "异常错误，请查看服务器端日志";
-      const status = errorData.status || error.serviceCode || 500;
+      const status = errorData.status || errorData.serviceCode || 500;
       ctx.send(null, status, "服务器端异常错误", error);
     }
   }
 };
-module.exports = errorHandler;
+
+export default errorHandler;

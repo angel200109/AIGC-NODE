@@ -1,8 +1,9 @@
-const validate = require("@/utils/validate");
+import validate from "@/utils/validate.js";
+import axios from "axios";
+
 const queryTrainTicketUrl =
   "https://jisutrain.market.alicloudapi.com/train/station2s";
 const queryWeatherUrl = "https://ali-weather.showapi.com/day15";
-const axios = require("axios").default;
 
 class CallToolController {
   // -----------------查询火车票-----------------
@@ -20,9 +21,9 @@ class CallToolController {
       });
       ctx.send(res.data.result.list);
     } catch (error) {
-      console.log(error);
+      console.error(error);
       const status = ["201", "203"];
-      if (status.includes(error.response.data.status)) {
+      if (status.includes(error.response?.data?.status)) {
         ctx.send(
           [],
           200,
@@ -53,7 +54,7 @@ class CallToolController {
       });
       ctx.send(res.data.showapi_res_body.dayList);
     } catch (error) {
-      if (error.response.status == 450 && error.response.data) {
+      if (error.response?.status === 450 && error.response?.data) {
         ctx.send(
           [],
           200,
@@ -72,4 +73,4 @@ class CallToolController {
   }
 }
 
-module.exports = new CallToolController();
+export default new CallToolController();

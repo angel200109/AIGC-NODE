@@ -1,0 +1,12 @@
+[2025-10-06T15:42:33.236] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-06T15:43:22.858] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

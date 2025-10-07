@@ -6,10 +6,9 @@ class Validate {
     }
   }
 
-  //  非空字符串验证
+  // 非空字符串验证
   async nonEmptyString(fieldName, value, tips) {
     console.log(`验证字段: ${fieldName}, 值: ${value}`);
-
     await this.requireField(fieldName, value);
     if (typeof value !== "string") {
       throw {
@@ -38,4 +37,5 @@ class Validate {
     }
   }
 }
-module.exports = new Validate();
+
+export default new Validate();

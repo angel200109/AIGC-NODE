@@ -7,15 +7,17 @@ const responseHandler = async (ctx, next) => {
     error = null,
     serviceCode = 200 // 服务端错误码
   ) => {
+    // 前端在 response.json()里取
     ctx.body = {
       data,
-      code,
+      code, // http 状态码
       msg,
       error,
       serviceCode,
     };
-    ctx.status = code; // http 状态码
+    ctx.status = code; // http 状态码(前端是response.status取)
   };
   await next();
 };
-module.exports = responseHandler;
+
+export default responseHandler;

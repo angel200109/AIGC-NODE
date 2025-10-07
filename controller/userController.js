@@ -1,8 +1,8 @@
-const validate = require("../utils/validate");
+import validate from "../utils/validate.js";
 
 class UserController {
   async getUser(ctx) {
-    if (ctx.query.name == "angel") {
+    if (ctx.query.name === "angel") {
       ctx.send({
         data: {
           name: "angel",
@@ -21,4 +21,5 @@ class UserController {
     ctx.send("成功收到数据", 200, "请求成功");
   }
 }
-module.exports = new UserController();
+
+export default new UserController();

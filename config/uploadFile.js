@@ -1,9 +1,8 @@
-// 处理 form-data 文件的中间件
-const multer = require("@koa/multer");
+import multer from "@koa/multer";
 
 // 1. 定义磁盘存储的方式
 const storage = multer.diskStorage({
-  // 1.1 校验文件类型 定义存储位置
+  // 1.1 校验文件类型 & 定义存储位置
   destination: (req, file, cb) => {
     console.log(file);
     const fileType = ["image/png", "image/jpeg", "image/webp", "image/jpg"];
@@ -20,7 +19,7 @@ const storage = multer.diskStorage({
   // 1.2 文件名称
   filename: (req, file, cb) => {
     const fileNameSplit = file.originalname.split(".");
-    const newFileName = `${new Date().getTime()}.${
+    const newFileName = `${Date.now()}.${
       fileNameSplit[fileNameSplit.length - 1]
     }`;
     cb(null, newFileName);
@@ -28,4 +27,5 @@ const storage = multer.diskStorage({
 });
 
 const uploadFile = multer({ storage });
-module.exports = uploadFile;
+
+export default uploadFile;

@@ -1,0 +1,58 @@
+[2025-09-30T19:10:17.391] [ERROR] error - ReferenceError: res is not defined
+    at addGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:12:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:19:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-30T20:25:26.776] [ERROR] error - {
+  msg: '缺少goodsId字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-30T20:26:36.242] [ERROR] error - {
+  msg: '缺少goodsId字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-30T21:39:24.607] [ERROR] error - {
+  msg: '缺少userMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-30T21:49:03.305] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'content')
+    at searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:46:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:19:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-30T21:49:23.209] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'content')
+    at searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:46:53)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:19:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-09-30T21:49:47.420] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'content')
+    at searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:46:53)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:19:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}

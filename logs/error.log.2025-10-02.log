@@ -1,0 +1,120 @@
+[2025-10-02T18:17:17.169] [ERROR] error - BadRequestError: 400 <400> InternalError.Algo.InvalidParameter: Download multimodal file timed out
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:28:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:19:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Thu, 02 Oct 2025 10:17:13 GMT',
+    'req-arrive-time': '1759400173165',
+    'req-cost-time': '60978',
+    'resp-start-time': '1759400234143',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=b71acc50-2ee8-4c40-b088-5d09a58e92c91aba30d5ddc193b420955600b2679bee;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-dashscope-call-gateway': 'true',
+    'x-envoy-upstream-service-time': '60977',
+    'x-request-id': 'b71acc50-2ee8-4c40-b088-5d09a58e92c9',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'b71acc50-2ee8-4c40-b088-5d09a58e92c9',
+  error: {
+    code: 'invalid_parameter_error',
+    param: null,
+    message: '<400> InternalError.Algo.InvalidParameter: Download multimodal file timed out',
+    type: 'invalid_request_error'
+  },
+  code: 'invalid_parameter_error',
+  param: null,
+  type: 'invalid_request_error'
+}
+[2025-10-02T18:17:59.621] [ERROR] error - BadRequestError: 400 Download the media resource timed out during the data inspection process.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:28:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:19:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Thu, 02 Oct 2025 10:17:56 GMT',
+    'req-arrive-time': '1759400273513',
+    'req-cost-time': '3082',
+    'resp-start-time': '1759400276596',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=4253b753-6603-4ebd-a9b0-aa00dd56666c91ad5b0a4559f2438cb8b47c7385f1d2;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-dashscope-call-gateway': 'true',
+    'x-envoy-upstream-service-time': '3081',
+    'x-request-id': '4253b753-6603-4ebd-a9b0-aa00dd56666c',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '4253b753-6603-4ebd-a9b0-aa00dd56666c',
+  error: {
+    code: 'InvalidParameter.DataInspection',
+    param: null,
+    message: 'Download the media resource timed out during the data inspection process.',
+    type: 'InvalidParameter.DataInspection'
+  },
+  code: 'InvalidParameter.DataInspection',
+  param: null,
+  type: 'InvalidParameter.DataInspection'
+}
+[2025-10-02T18:20:41.787] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-02T18:21:45.643] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-02T18:22:47.981] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-02T18:23:23.653] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-02T18:23:30.032] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-02T18:23:30.128] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-02T18:23:33.559] [ERROR] error - {
+  msg: '缺少chatMessages字段',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
