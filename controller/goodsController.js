@@ -12,14 +12,6 @@ class GoodsController {
     await modelGoods.insertMany(json);
   }
 
-  // 根据商品id获取商品详情
-  async goodsDetail(ctx) {
-    const { goodsId } = ctx.query;
-    await validate.nonEmptyString("goodsId", goodsId, "商品id不能为空");
-    const res = await modelGoods.findById(goodsId);
-    ctx.send(res);
-  }
-
   // 基于 大语言模型 (LLM) 的智能商品搜索功能
   async searchGoods(ctx) {
     console.log("搜索商品ing");
@@ -30,6 +22,7 @@ class GoodsController {
       apiKey: process.env.DASHSCOPE_API_KEY,
       baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1",
     });
+    // 1.调用 llm 进行关键词的提取
     const completion = await openai.chat.completions.create({
       model: "qwen-plus",
       messages: [
@@ -44,9 +37,12 @@ class GoodsController {
       ],
     });
     // console.log(completion);
+
+    // 2.得到关键词
     const keyWords = completion.choices[0].message.content;
     console.log("keyWords:", keyWords);
 
+    // 3.在数据库进行模糊查询
     if (keyWords != "null") {
       const queryConditions = JSON.parse(keyWords).map((item) => ({
         contentTitle: {
@@ -59,6 +55,14 @@ class GoodsController {
     } else {
       ctx.send([]);
     }
+  }
+
+  // 根据商品id获取商品详情
+  async goodsDetail(ctx) {
+    const { goodsId } = ctx.query;
+    await validate.nonEmptyString("goodsId", goodsId, "商品id不能为空");
+    const res = await modelGoods.findById(goodsId);
+    ctx.send(res);
   }
 }
 export default new GoodsController();

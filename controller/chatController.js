@@ -11,11 +11,8 @@ class ChatController {
     });
 
     const { chatMessages } = ctx.request.body;
-    console.log(chatMessages);
-
     await validate.isArray("chatMessages", chatMessages, "对话信息不能为空");
     chatMessages.pop();
-
     let messages = [
       {
         role: "system",
@@ -51,10 +48,10 @@ class ChatController {
           functionName: "",
           data: delta.content,
         });
-        const buffer = Buffer.from(resObj); // 将JSON字符串转为二进制Buffer
+        const buffer = Buffer.from(resObj); // 将 JSON 字符串转为二进制 Buffer
         console.log(buffer);
-
         ctx.res.write(buffer + "\n");
+        // ctx.res.end(); 流式输出，不能加这一句，如果输出完了，会返回一个"OK"字符串
       }
 
       // -------------------- 2. 有工具调用 --------------------
@@ -98,6 +95,7 @@ class ChatController {
         ctx.res.end();
       }
     }
+    ctx.res.end();
   }
 
   // 图片上传接口
