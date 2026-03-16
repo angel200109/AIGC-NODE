@@ -1,6 +1,7 @@
 // 1. 加载配置和基础库
 import "dotenv/config.js"; // 加载环境变量
 import Koa from "koa";
+import "esm-module-alias/loader"; // 加载别名
 import json from "koa-json";
 import bodyParser from "koa-bodyparser";
 import cors from "@koa/cors";
@@ -8,7 +9,7 @@ import serve from "koa-static";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
-import "@/config/database.js";
+import "./config/database.js";
 
 const app = new Koa();
 
@@ -21,7 +22,7 @@ const __dirname = dirname(__filename);
 // addAlias("@", __dirname);
 
 // 3. 注册中间件
-import errorHandler from "@/config/errorHandler.js";
+import errorHandler from "./config/errorHandler.js";
 app.use(errorHandler);
 
 import responseHandler from "./config/responseHandler.js";
@@ -34,10 +35,10 @@ app.use(json());
 app.use(serve(path.join(__dirname))); // 静态资源目录
 
 // 5. 注册路由
-import router from "@/routes/index.js";
+import router from "./routes/index.js";
 app.use(router.routes()).use(router.allowedMethods());
 
 // 6. 启动服务
-app.listen(3000, () => {
-  console.log("✅ Koa server running at http://localhost:3000");
+app.listen(3001, () => {
+  console.log("✅ Koa server running at http://localhost:3001");
 });

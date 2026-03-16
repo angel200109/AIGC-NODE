@@ -1,4 +1,4 @@
-import validate from "@/utils/validate.js";
+import validate from "../utils/validate.js";
 import axios from "axios";
 
 const queryTrainTicketUrl =
@@ -16,7 +16,7 @@ class CallToolController {
       const res = await axios.get(queryTrainTicketUrl, {
         params: { start: departure, end: destination, date },
         headers: {
-          Authorization: `APPCODE ${process.env.appCode}`,
+          Authorization: `APPCODE ${process.env.APP_CODE}`,
         },
       });
       ctx.send(res.data.result.list);
@@ -49,7 +49,7 @@ class CallToolController {
       const res = await axios.get(queryWeatherUrl, {
         params: { area: city },
         headers: {
-          Authorization: `APPCODE ${process.env.appCode}`,
+          Authorization: `APPCODE ${process.env.APP_CODE}`,
         },
       });
       ctx.send(res.data.showapi_res_body.dayList);

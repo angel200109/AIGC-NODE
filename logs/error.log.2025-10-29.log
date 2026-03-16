@@ -1,0 +1,790 @@
+[2025-10-29T10:48:48.250] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 02:48:45 GMT',
+    'req-arrive-time': '1761706126273',
+    'req-cost-time': '34',
+    'resp-start-time': '1761706126308',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=ef967ece-3bcf-4964-a216-2de0c95c303928103f36e099cf47638affa98a5e33c5;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '33',
+    'x-request-id': 'ef967ece-3bcf-4964-a216-2de0c95c3039',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'ef967ece-3bcf-4964-a216-2de0c95c3039',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T10:48:48.253] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 02:48:46 GMT',
+    'req-arrive-time': '1761706126272',
+    'req-cost-time': '40',
+    'resp-start-time': '1761706126313',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=610d5e73-b85b-4090-a83a-3811faeda180f14ba41f77d533a8be0febe1eb68bbec;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '37',
+    'x-request-id': '610d5e73-b85b-4090-a83a-3811faeda180',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '610d5e73-b85b-4090-a83a-3811faeda180',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T10:48:56.063] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 02:48:53 GMT',
+    'req-arrive-time': '1761706134091',
+    'req-cost-time': '35',
+    'resp-start-time': '1761706134127',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=3b0f4e4f-a7a4-449f-bdc5-f8b1b999e1193c7c9f9b7fac58a4d94b7b72e625d44c;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '34',
+    'x-request-id': '3b0f4e4f-a7a4-449f-bdc5-f8b1b999e119',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '3b0f4e4f-a7a4-449f-bdc5-f8b1b999e119',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T10:48:56.068] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 02:48:53 GMT',
+    'req-arrive-time': '1761706134094',
+    'req-cost-time': '38',
+    'resp-start-time': '1761706134132',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=541c8e9d-62dd-4254-9c6a-ac2f36e3aab093ca2290b8134041db994dc403792b3e;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '37',
+    'x-request-id': '541c8e9d-62dd-4254-9c6a-ac2f36e3aab0',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '541c8e9d-62dd-4254-9c6a-ac2f36e3aab0',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T10:49:47.506] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 02:49:45 GMT',
+    'req-arrive-time': '1761706185532',
+    'req-cost-time': '36',
+    'resp-start-time': '1761706185568',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=8adca4c6-aa9f-42d7-a1c5-76f21031746de10ed769fdf7034b0e803eb703b58cf2;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '35',
+    'x-request-id': '8adca4c6-aa9f-42d7-a1c5-76f21031746d',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '8adca4c6-aa9f-42d7-a1c5-76f21031746d',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T10:49:47.515] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 02:49:45 GMT',
+    'req-arrive-time': '1761706185531',
+    'req-cost-time': '49',
+    'resp-start-time': '1761706185580',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=4ba4b12e-7516-46b5-926f-118a4f28bd79c9b236a487c32a2cbbd5080d0862f1bc;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '48',
+    'x-request-id': '4ba4b12e-7516-46b5-926f-118a4f28bd79',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '4ba4b12e-7516-46b5-926f-118a4f28bd79',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T10:54:20.998] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 02:54:18 GMT',
+    'req-arrive-time': '1761706459030',
+    'req-cost-time': '33',
+    'resp-start-time': '1761706459063',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=4a751cd3-7fae-47fb-affa-d131dc8abb2df7f1dae5369f1895e45c98142853df6b;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '31',
+    'x-request-id': '4a751cd3-7fae-47fb-affa-d131dc8abb2d',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '4a751cd3-7fae-47fb-affa-d131dc8abb2d',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T10:54:21.007] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 02:54:18 GMT',
+    'req-arrive-time': '1761706459027',
+    'req-cost-time': '45',
+    'resp-start-time': '1761706459072',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=d516f92b-419a-4379-99a5-e87b1001c874ffd28a26da08ee469f6b274d96cbcc1f;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '44',
+    'x-request-id': 'd516f92b-419a-4379-99a5-e87b1001c874',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'd516f92b-419a-4379-99a5-e87b1001c874',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T12:55:29.221] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 04:55:26 GMT',
+    'req-arrive-time': '1761713726904',
+    'req-cost-time': '32',
+    'resp-start-time': '1761713726937',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=388009db-a8d5-4780-b87c-d01f462039db801ae7bea643d4064dd69224ec4b72c3;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '31',
+    'x-request-id': '388009db-a8d5-4780-b87c-d01f462039db',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '388009db-a8d5-4780-b87c-d01f462039db',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T12:55:29.226] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 04:55:26 GMT',
+    'req-arrive-time': '1761713726906',
+    'req-cost-time': '36',
+    'resp-start-time': '1761713726943',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=95487ac5-2b13-4f1a-adce-81f27744ca7157611e04313dd4376b7f4ed9a81e0d36;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '36',
+    'x-request-id': '95487ac5-2b13-4f1a-adce-81f27744ca71',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '95487ac5-2b13-4f1a-adce-81f27744ca71',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T13:17:58.439] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 05:17:55 GMT',
+    'req-arrive-time': '1761715076127',
+    'req-cost-time': '34',
+    'resp-start-time': '1761715076162',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=524c5ef4-7160-45b4-bbaa-945f0c91b56e3741065e8ceb31f09c9f0c0d46b62947;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '33',
+    'x-request-id': '524c5ef4-7160-45b4-bbaa-945f0c91b56e',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '524c5ef4-7160-45b4-bbaa-945f0c91b56e',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T13:17:58.443] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 05:17:56 GMT',
+    'req-arrive-time': '1761715076126',
+    'req-cost-time': '46',
+    'resp-start-time': '1761715076172',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=aa80f9e9-9794-482c-a254-796c99e0237b2caf2002038d8b5d3324baf9438cebcf;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '45',
+    'x-request-id': 'aa80f9e9-9794-482c-a254-796c99e0237b',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'aa80f9e9-9794-482c-a254-796c99e0237b',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T13:18:07.689] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 05:18:05 GMT',
+    'req-arrive-time': '1761715085371',
+    'req-cost-time': '45',
+    'resp-start-time': '1761715085416',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=d5db83b2-d710-4b71-8391-f67db9fe357a36da4988ecf286dbfb7a81a436e80866;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '45',
+    'x-request-id': 'd5db83b2-d710-4b71-8391-f67db9fe357a',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'd5db83b2-d710-4b71-8391-f67db9fe357a',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T13:18:07.690] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 05:18:04 GMT',
+    'req-arrive-time': '1761715085368',
+    'req-cost-time': '50',
+    'resp-start-time': '1761715085418',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=f8e50795-10a7-4d5f-ab3c-11d69cc65a61bde8ca1ff06b2abfdd73c0cb82f0df4e;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '49',
+    'x-request-id': 'f8e50795-10a7-4d5f-ab3c-11d69cc65a61',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'f8e50795-10a7-4d5f-ab3c-11d69cc65a61',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T13:19:51.332] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-29T13:20:39.213] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-29T13:24:58.984] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-29T13:25:11.010] [ERROR] error - {
+  msg: '查询天气出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-29T13:25:59.457] [ERROR] error - {
+  msg: '查询火车票出现异常错误',
+  code: 400,
+  validate: null,
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-29T13:52:33.984] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 05:52:31 GMT',
+    'req-arrive-time': '1761717151675',
+    'req-cost-time': '39',
+    'resp-start-time': '1761717151714',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=5fd42d7c-61a1-4fc7-af67-8a2d3abff7ca90c0fbd3a2ae95bcefddb4fe0058a341;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '38',
+    'x-request-id': '5fd42d7c-61a1-4fc7-af67-8a2d3abff7ca',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '5fd42d7c-61a1-4fc7-af67-8a2d3abff7ca',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T13:52:33.991] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 05:52:31 GMT',
+    'req-arrive-time': '1761717151676',
+    'req-cost-time': '48',
+    'resp-start-time': '1761717151725',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=c272e39c-25b5-4dae-9d5c-e2b1bb2d9ac03f842bba6718de7a13a8bba865159d67;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '47',
+    'x-request-id': 'c272e39c-25b5-4dae-9d5c-e2b1bb2d9ac0',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'c272e39c-25b5-4dae-9d5c-e2b1bb2d9ac0',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T13:52:42.393] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 05:52:39 GMT',
+    'req-arrive-time': '1761717160090',
+    'req-cost-time': '37',
+    'resp-start-time': '1761717160127',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=5cbb2201-a978-4955-89a1-5bc2849ca17aa1a3a6c52055113a524a6211190ba1d0;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '36',
+    'x-request-id': '5cbb2201-a978-4955-89a1-5bc2849ca17a',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '5cbb2201-a978-4955-89a1-5bc2849ca17a',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T13:52:42.395] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 05:52:39 GMT',
+    'req-arrive-time': '1761717160091',
+    'req-cost-time': '36',
+    'resp-start-time': '1761717160127',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=1bb3b0dc-86d6-4b35-af56-87465281f567da1dc48b430cd79e96e02970d7860250;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '35',
+    'x-request-id': '1bb3b0dc-86d6-4b35-af56-87465281f567',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '1bb3b0dc-86d6-4b35-af56-87465281f567',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T14:00:54.439] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async searchGoods (file:///D:/Code/Frontend/AIGC-NODE/controller/goodsController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 06:00:51 GMT',
+    'req-arrive-time': '1761717652128',
+    'req-cost-time': '36',
+    'resp-start-time': '1761717652165',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=61b3d14e-b870-4220-bf3b-d921a5c7608d07188b49cf89ae4ae547c82ed1b54ab6;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '35',
+    'x-request-id': '61b3d14e-b870-4220-bf3b-d921a5c7608d',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: '61b3d14e-b870-4220-bf3b-d921a5c7608d',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}
+[2025-10-29T14:00:54.447] [ERROR] error - BadRequestError: 400 Access denied, please make sure your account is in good standing.
+    at APIError.generate (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/error.mjs:41:20)
+    at OpenAI.makeStatusError (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:295:25)
+    at OpenAI.makeRequest (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/core.mjs:339:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:25:24)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  status: 400,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-type': 'application/json',
+    date: 'Wed, 29 Oct 2025 06:00:51 GMT',
+    'req-arrive-time': '1761717652128',
+    'req-cost-time': '39',
+    'resp-start-time': '1761717652167',
+    server: 'istio-envoy',
+    'set-cookie': 'acw_tc=c70c7120-b5e3-4941-8737-7de621043821d6b18e4f3fb52bbd6051088a13391f3a;path=/;HttpOnly;Max-Age=1800',
+    'transfer-encoding': 'chunked',
+    vary: 'Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding',
+    'x-envoy-upstream-service-time': '38',
+    'x-request-id': 'c70c7120-b5e3-4941-8737-7de621043821',
+    'Access-Control-Allow-Origin': '*'
+  },
+  request_id: 'c70c7120-b5e3-4941-8737-7de621043821',
+  error: {
+    code: 'Arrearage',
+    param: null,
+    message: 'Access denied, please make sure your account is in good standing.',
+    type: 'Arrearage'
+  },
+  code: 'Arrearage',
+  param: null,
+  type: 'Arrearage'
+}

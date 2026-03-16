@@ -1,12 +1,12 @@
 import validate from "../utils/validate.js";
 import tools from "../config/tools.js";
-
+import config from "../default.js";
 class ChatController {
   // 大模型对话接口
   async chatMessage(ctx) {
     const { default: OpenAI } = await import("openai");
     const openai = new OpenAI({
-      apiKey: process.env.DASHSCOPE_API_KEY,
+      apiKey: process.env.API_KEY,
       baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1",
     });
 
@@ -16,7 +16,7 @@ class ChatController {
     let messages = [
       {
         role: "system",
-        content: process.env.role,
+        content: config.aliyun.systemContent,
       },
       ...chatMessages,
     ];
@@ -49,7 +49,7 @@ class ChatController {
           data: delta.content,
         });
         const buffer = Buffer.from(resObj); // 将 JSON 字符串转为二进制 Buffer
-        console.log(buffer);
+        // console.log(buffer);
         ctx.res.write(buffer + "\n");
         // ctx.res.end(); 流式输出，不能加这一句，如果输出完了，会返回一个"OK"字符串
       }
@@ -109,7 +109,7 @@ class ChatController {
       };
     }
     ctx.send(
-      `http://${ctx.host}/${ctx.file.destination}${ctx.file.filename}`,
+      `${ctx.host}/${ctx.file.destination}${ctx.file.filename}`,
       200,
       "图片上传成功"
     );

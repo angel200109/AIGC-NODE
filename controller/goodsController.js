@@ -1,13 +1,12 @@
-import modelGoods from "@/model/goods.js";
-import validate from "@/utils/validate.js";
+import modelGoods from "../model/goods.js";
+import validate from "../utils/validate.js";
 import fs from "fs";
+import config from "../default.js";
+
 class GoodsController {
   // 导入商品
   async addGoods(ctx) {
-    const goodsFile = fs.readFileSync(
-      "D:/Code/Frontend/AIGC-NODE/goods.json",
-      "utf-8"
-    );
+    const goodsFile = fs.readFileSync("goods.json", "utf-8");
     const json = JSON.parse(goodsFile);
     await modelGoods.insertMany(json);
   }
@@ -19,7 +18,7 @@ class GoodsController {
     await validate.nonEmptyString("userMessages", userMessages, "缺少用户对话");
     const { default: OpenAI } = await import("openai");
     const openai = new OpenAI({
-      apiKey: process.env.DASHSCOPE_API_KEY,
+      apiKey: process.env.API_KEY,
       baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1",
     });
     // 1.调用 llm 进行关键词的提取
@@ -28,7 +27,7 @@ class GoodsController {
       messages: [
         {
           role: "system",
-          content: process.env.KEYWORD_EXTRACTION_PROMPT,
+          content: config.aliyun.goodPrompt,
         },
         {
           role: "user",

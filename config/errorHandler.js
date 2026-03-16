@@ -1,4 +1,4 @@
-import * as logger from "@/config/logger.js";
+import * as logger from "./logger.js";
 
 const errorHandler = async (ctx, next) => {
   try {

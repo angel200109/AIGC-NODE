@@ -1,9 +1,9 @@
 import Router from "@koa/router";
-import user from "@/controller/userController.js";
-import chat from "@/controller/chatController.js";
-import uploadFile from "@/config/uploadFile.js";
-import tool from "@/controller/callToolController.js";
-import goods from "@/controller/goodsController.js";
+import user from "../controller/userController.js";
+import chat from "../controller/chatController.js";
+import uploadFile from "../config/uploadFile.js";
+import tool from "../controller/callToolController.js";
+import goods from "../controller/goodsController.js";
 
 const router = new Router();
 

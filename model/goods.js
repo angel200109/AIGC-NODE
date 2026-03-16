@@ -1,4 +1,4 @@
-import { Schema, model, mongoose } from "@/config/database.js";
+import { Schema, model, mongoose } from "../config/database.js";
 import dayjs from "dayjs";
 // 定义商品的字段
 const GoodsSchema = new Schema(

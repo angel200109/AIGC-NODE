@@ -1,8 +1,10 @@
 import mongoose from "mongoose";
+import config from "../default.js";
+
 mongoose.pluralize(null);
 const { Schema, model } = mongoose;
 mongoose
-  .connect(process.env.dbUrl)
+  .connect(config.dbUrl.host)
   .then((res) => {
     console.log("数据库连接成功");
   })

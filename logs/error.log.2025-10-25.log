@@ -1,0 +1,100 @@
+[2025-10-25T13:34:59.224] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:35:01.311] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:36:26.135] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:40:52.642] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:49:41.670] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:54:45.127] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:55:02.145] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:55:12.737] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:55:16.043] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
+[2025-10-25T13:55:17.690] [ERROR] error - OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///D:/Code/Frontend/AIGC-NODE/node_modules/openai/index.mjs:48:19)
+    at chatMessage (file:///D:/Code/Frontend/AIGC-NODE/controller/chatController.js:8:20)
+    at async serve (D:\Code\Frontend\AIGC-NODE\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\Code\Frontend\AIGC-NODE\node_modules\koa-bodyparser\index.js:78:5)
+    at async cors (D:\Code\Frontend\AIGC-NODE\node_modules\@koa\cors\index.js:109:16)
+    at async responseHandler (file:///D:/Code/Frontend/AIGC-NODE/config/responseHandler.js:20:3)
+    at async errorHandler (file:///D:/Code/Frontend/AIGC-NODE/config/errorHandler.js:5:5) {
+  headers: { 'Access-Control-Allow-Origin': '*', vary: 'Origin' }
+}
