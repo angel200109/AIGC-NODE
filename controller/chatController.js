@@ -23,7 +23,7 @@ class ChatController {
     console.log(JSON.stringify(messages, null, 2));
 
     const completion = await openai.chat.completions.create({
-      model: "qwen-plus",
+      model: "qwen3.5-plus",
       messages,
       stream: true,
       tools,
@@ -49,7 +49,7 @@ class ChatController {
           data: delta.content,
         });
         const buffer = Buffer.from(resObj); // 将 JSON 字符串转为二进制 Buffer
-        // console.log(buffer);
+        console.log("📤 发送给前端的chunk:", resObj); // 输出发送的chunk
         ctx.res.write(buffer + "\n");
         // ctx.res.end(); 流式输出，不能加这一句，如果输出完了，会返回一个"OK"字符串
       }
@@ -88,8 +88,7 @@ class ChatController {
           functionName,
           data: JSON.parse(requireParameters),
         });
-        console.log("以下是返回前端的数据");
-        console.log(resObj);
+        console.log("📤 发送给前端的函数调用chunk:", resObj); // 输出发送的chunk
         const buffer = Buffer.from(resObj);
         ctx.res.write(buffer);
         ctx.res.end();
@@ -111,7 +110,7 @@ class ChatController {
     ctx.send(
       `${ctx.host}/${ctx.file.destination}${ctx.file.filename}`,
       200,
-      "图片上传成功"
+      "图片上传成功",
     );
   }
 }

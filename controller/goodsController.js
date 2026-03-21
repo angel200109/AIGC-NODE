@@ -23,7 +23,7 @@ class GoodsController {
     });
     // 1.调用 llm 进行关键词的提取
     const completion = await openai.chat.completions.create({
-      model: "qwen-plus",
+      model: "qwen3.5-plus",
       messages: [
         {
           role: "system",
