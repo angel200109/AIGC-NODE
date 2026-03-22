@@ -1,6 +1,15 @@
 import validate from "../utils/validate.js";
 import tools from "../config/tools.js";
 import config from "../default.js";
+
+const writeSSE = (ctx, data, event) => {
+  if (event) {
+    ctx.res.write(`event: ${event}\n`);
+  }
+  ctx.res.write(`data: ${JSON.stringify(data)}\n\n`);
+  console.log("📤 有发chunk"); // 输出发送的chunk
+};
+
 class ChatController {
   // 大模型对话接口
   async chatMessage(ctx) {
@@ -30,6 +39,12 @@ class ChatController {
     });
 
     ctx.status = 200;
+    ctx.respond = false;
+    ctx.set("Content-Type", "text/event-stream; charset=utf-8");
+    ctx.set("Cache-Control", "no-cache");
+    ctx.set("Connection", "keep-alive");
+    ctx.set("X-Accel-Buffering", "no");
+    ctx.res.flushHeaders?.();
     let functionName = "";
     let requireParameters = "";
 
@@ -50,7 +65,7 @@ class ChatController {
         });
         const buffer = Buffer.from(resObj); // 将 JSON 字符串转为二进制 Buffer
         console.log("📤 发送给前端的chunk:", resObj); // 输出发送的chunk
-        ctx.res.write(buffer + "\n");
+        writeSSE(ctx, JSON.parse(buffer.toString()));
         // ctx.res.end(); 流式输出，不能加这一句，如果输出完了，会返回一个"OK"字符串
       }
 
@@ -90,10 +105,13 @@ class ChatController {
         });
         console.log("📤 发送给前端的函数调用chunk:", resObj); // 输出发送的chunk
         const buffer = Buffer.from(resObj);
-        ctx.res.write(buffer);
+        writeSSE(ctx, JSON.parse(buffer.toString()));
+        writeSSE(ctx, { done: true }, "done");
         ctx.res.end();
+        return;
       }
     }
+    writeSSE(ctx, { done: true }, "done");
     ctx.res.end();
   }
 
