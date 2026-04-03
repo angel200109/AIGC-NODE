@@ -1,11 +1,12 @@
 // 统一响应格式中间件
 const responseHandler = async (ctx, next) => {
+  // 给 ctx（Koa 上下文对象）挂载一个 send 方法
   ctx.send = (
     data = null,
     code = 200, // http 状态码
     msg = "SUCCESS",
     error = null,
-    serviceCode = 200 // 服务端错误码
+    serviceCode = 200, // 服务端错误码
   ) => {
     // 前端在 response.json()里取
     ctx.body = {
