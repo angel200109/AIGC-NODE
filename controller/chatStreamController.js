@@ -45,7 +45,7 @@ const normalizeMessages = (chatMessages) => {
   return [
     {
       role: "system",
-      content: config.aliyun.systemContent,
+      content: config.aiPrompt.systemContent,
     },
     ...normalized,
   ];
@@ -178,7 +178,6 @@ class ChatStreamController {
         unsubscribeStreamSession(currentSession, ctx.res);
       }
     });
-
   }
 
   async resume(ctx) {
