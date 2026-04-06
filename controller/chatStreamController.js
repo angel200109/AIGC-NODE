@@ -1,6 +1,7 @@
 import validate from "../utils/validate.js";
 import tools from "../config/tools.js";
 import config from "../default.js";
+import axios from "axios";
 import {
   appendStreamChunk,
   createStreamSession,
@@ -28,6 +29,163 @@ import {
 // };
 
 const maybeInjectDisconnect = () => {};
+
+const queryTrainTicketUrl =
+  "https://jmhccx.market.alicloudapi.com/train-query/ticket";
+const queryWeatherUrl = "https://ali-weather.showapi.com/day15";
+
+const buildToolHeaders = () => ({
+  Authorization: `APPCODE ${process.env.ALIYUN_MARKET_APPCODE}`,
+});
+
+const buildTrainTicketHeaders = () => ({
+  ...buildToolHeaders(),
+  "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+});
+
+const extractTrainTicketPayload = (payload) => {
+  if (Array.isArray(payload)) {
+    return { list: payload };
+  }
+
+  return payload?.data || payload?.result || payload || {};
+};
+
+const normalizeSeatInfo = (seat) => {
+  if (!seat || typeof seat !== "object") {
+    return null;
+  }
+
+  return {
+    price: seat.price ?? "--",
+    num: seat.num ?? "--",
+    discount: seat.discount ?? "",
+  };
+};
+
+const normalizeTrainTicketItem = (item) => ({
+  trainNo: item.trainno,
+  type: item.type,
+  departureStation: item.departstation,
+  arrivalStation: item.endstation,
+  departureTime: item.departuretime,
+  arrivalTime: item.arrivaltime,
+  duration: item.costtime,
+  sequenceNo: item.sequenceno,
+  secondClass: normalizeSeatInfo(item.ze),
+  firstClass: normalizeSeatInfo(item.zy),
+  businessClass: normalizeSeatInfo(item.swz),
+  noSeat: normalizeSeatInfo(item.wz),
+  softSleeper: normalizeSeatInfo(item.rw),
+  hardSleeper: normalizeSeatInfo(item.yw),
+  hardSeat: normalizeSeatInfo(item.yz),
+});
+
+const buildToolStatusMessage = (functionName, args) => {
+  if (functionName === "get_weather") {
+    return `正在查询${args.city}的天气...`;
+  }
+
+  if (functionName === "get_train_tickets") {
+    let date = args.date || "今天";
+    return `正在查询${args.departure}到${args.destination}${date}出发的车票...`;
+  }
+
+  return "正在搜索...";
+};
+
+const normalizeToolResult = (functionName, args, data) => {
+  if (functionName === "get_weather") {
+    const forecast = Array.isArray(data)
+      ? data.slice(0, 3).map((item) => ({
+          date: item.daytime,
+          week: item.weekday,
+          dayWeather: item.day_weather,
+          nightWeather: item.night_weather,
+          dayTemp: item.day_air_temperature,
+          nightTemp: item.night_air_temperature,
+          dayWind: item.day_wind_direction,
+          nightWind: item.night_wind_direction,
+        }))
+      : [];
+
+    return {
+      city: args.city,
+      forecast,
+    };
+  }
+
+  if (functionName === "get_train_tickets") {
+    const ticketPayload = data && !Array.isArray(data) ? data : { list: data };
+    const ticketList = Array.isArray(ticketPayload.list)
+      ? ticketPayload.list
+      : [];
+
+    return {
+      departure: ticketPayload.start || args.departure,
+      destination: ticketPayload.end || args.destination,
+      date: ticketPayload.date || args.date || "",
+      updateTime: ticketPayload.updateTime || "",
+      tickets: ticketList.slice(0, 10).map(normalizeTrainTicketItem),
+    };
+  }
+
+  return data;
+};
+
+const executeToolCall = async (functionName, args) => {
+  if (functionName === "get_weather") {
+    const res = await axios.get(queryWeatherUrl, {
+      params: { area: args.city },
+      headers: buildToolHeaders(),
+    });
+
+    return normalizeToolResult(
+      functionName,
+      args,
+      res.data?.showapi_res_body?.dayList || [],
+    );
+  }
+
+  if (functionName === "get_train_tickets") {
+    const body = new URLSearchParams();
+    body.set("start", args.departure);
+    body.set("end", args.destination);
+    if (typeof args.ishigh === "string" && args.ishigh.trim()) {
+      body.set("ishigh", args.ishigh.trim());
+    }
+    if (typeof args.date === "string" && args.date.trim()) {
+      body.set("date", args.date.trim());
+    }
+    const res = await axios.post(queryTrainTicketUrl, body.toString(), {
+      headers: buildTrainTicketHeaders(),
+    });
+
+    return normalizeToolResult(
+      functionName,
+      args,
+      extractTrainTicketPayload(res.data),
+    );
+  }
+
+  throw new Error(`unsupported tool call: ${functionName}`);
+};
+
+const streamAssistantContent = async (session, completion) => {
+  for await (const chunk of completion) {
+    const obj = JSON.parse(JSON.stringify(chunk));
+    const delta = obj.choices[0].delta;
+
+    if (delta.content) {
+      const contentChunk = appendStreamChunk(session, "message", {
+        type: "content",
+        functionName: "",
+        data: delta.content,
+      });
+      maybeInjectDisconnect(session, contentChunk.id);
+    }
+  }
+};
 
 const setupSSEHeaders = (ctx) => {
   ctx.status = 200;
@@ -69,6 +227,7 @@ const streamCompletion = async (session, chatMessages) => {
   let functionName = "";
   let requireParameters = "";
   let lastMessage = null;
+  let hasToolCall = false;
 
   const metaChunk = appendStreamChunk(session, "message", {
     type: "meta",
@@ -121,16 +280,40 @@ const streamCompletion = async (session, chatMessages) => {
     }
 
     if (obj.choices[0].finish_reason === "tool_calls") {
-      const functionChunk = appendStreamChunk(session, "message", {
-        type: "function",
+      hasToolCall = true;
+      const toolArgs = JSON.parse(requireParameters);
+      const statusChunk = appendStreamChunk(session, "message", {
+        type: "status",
         functionName,
-        data: JSON.parse(requireParameters),
+        data: buildToolStatusMessage(functionName, toolArgs),
       });
-      maybeInjectDisconnect(session, functionChunk.id);
-      appendStreamChunk(session, "done", { done: true });
-      markStreamSessionDone(session);
-      return;
+      maybeInjectDisconnect(session, statusChunk.id);
+      const toolResult = await executeToolCall(functionName, toolArgs);
+
+      messages.push({
+        role: "assistant",
+        content: "",
+        tool_calls: lastMessage?.tool_calls || [],
+      });
+
+      messages.push({
+        role: "tool",
+        tool_call_id: lastMessage?.tool_calls?.[0]?.id,
+        content: JSON.stringify(toolResult),
+      });
+
+      break;
     }
+  }
+
+  if (hasToolCall) {
+    const finalCompletion = await openai.chat.completions.create({
+      model: "qwen3.5-plus",
+      messages,
+      stream: true,
+    });
+
+    await streamAssistantContent(session, finalCompletion);
   }
 
   appendStreamChunk(session, "done", { done: true });

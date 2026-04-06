@@ -3,7 +3,6 @@ import user from "../controller/userController.js";
 import chat from "../controller/chatController.js";
 import chatStream from "../controller/chatStreamController.js";
 import uploadFile from "../config/uploadFile.js";
-import tool from "../controller/callToolController.js";
 import goods from "../controller/goodsController.js";
 
 const router = new Router();
@@ -21,8 +20,6 @@ router.post("/chatMessage/resume", chatStream.resume);
 router.post("/uploadFile", uploadFile.single("file"), chat.uploadFile);
 
 // 第三方api接口
-router.post("/queryTrainTicket", tool.queryTrainTicket);
-router.get("/queryWeather", tool.queryWeather);
 
 // 商品接口
 router.get("/addGoods", goods.addGoods);
