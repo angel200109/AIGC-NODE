@@ -11,24 +11,30 @@ import {
   replayStreamChunks,
   subscribeStreamSession,
   unsubscribeStreamSession,
+  disconnectSubscribers,
 } from "../utils/streamSessionManager.js";
 
-// const DEBUG_DISCONNECT_ENABLED = true;
-// const DEBUG_DISCONNECT_AT_CHUNK = 6;
-//
-// const maybeInjectDisconnect = (session, chunkId) => {
-//   if (!DEBUG_DISCONNECT_ENABLED) return;
-//   if (session.meta.debugDisconnectTriggered) return;
-//   if (chunkId < DEBUG_DISCONNECT_AT_CHUNK) return;
-//
-//   session.meta.debugDisconnectTriggered = true;
-//   console.log(
-//     `[debug] force disconnect stream requestId=${session.requestId} at chunk=${chunkId}`,
-//   );
-//   disconnectSubscribers(session);
-// };
+// 调试模式：强制断开连接以测试重连机制
+const DEBUG_DISCONNECT_ENABLED = false; // 已关闭
+const DEBUG_DISCONNECT_AT_CHUNK = 5; // 在第5个数据块后断开
 
-const maybeInjectDisconnect = () => {};
+const maybeInjectDisconnect = (session, chunkId) => {
+  if (!DEBUG_DISCONNECT_ENABLED) return;
+  if (session.meta.debugDisconnectTriggered) return;
+  if (chunkId < DEBUG_DISCONNECT_AT_CHUNK) return;
+
+  session.meta.debugDisconnectTriggered = true;
+  console.log(
+    `[debug] 🔴 强制断开连接 requestId=${session.requestId} at chunk=${chunkId}`,
+  );
+  // 断开所有订阅者的连接
+  for (const res of session.subscribers) {
+    if (!res.writableEnded && !res.destroyed) {
+      res.end(); // 主动关闭连接
+    }
+  }
+  session.subscribers.clear();
+};
 
 const queryTrainTicketUrl =
   "https://jmhccx.market.alicloudapi.com/train-query/ticket";
@@ -331,62 +337,66 @@ const startStreamTask = (session, chatMessages) => {
 };
 
 class ChatStreamController {
-  async create(ctx) {
-    const { chatMessages, requestId } = ctx.request.body;
-    await validate.isArray("chatMessages", chatMessages, "对话信息不能为空");
+  /**
+   * 统一流式接口
+   * - 创建新会话：传入 chatMessages
+   * - 恢复已有会话：传入 requestId + lastChunkId
+   */
+  async unified(ctx) {
+    const { chatMessages, requestId, lastChunkId = 0 } = ctx.request.body;
+
+    console.log(
+      `[🔌 后端调试] 收到请求 | requestId: ${requestId} | lastChunkId: ${lastChunkId}`
+    );
 
     setupSSEHeaders(ctx);
+
+    // 查找现有会话
     let session = null;
     if (typeof requestId === "string" && requestId.trim()) {
       session = getStreamSession(requestId);
     }
 
+    // 判断是否需要创建新会话
     if (!session) {
+      console.log(`[🔌 后端调试] 创建新会话 | requestId: ${requestId}`);
+      if (!chatMessages || !Array.isArray(chatMessages)) {
+        throw {
+          msg: "创建新会话时必须提供 chatMessages",
+          code: 400,
+          validate: null,
+        };
+      }
+      await validate.isArray("chatMessages", chatMessages, "对话信息不能为空");
+      // 创建新会话并启动流式任务
       session = createStreamSession({}, requestId);
       startStreamTask(session, chatMessages);
+    } else {
+      console.log(
+        `[🔌 后端调试] 恢复已有会话 | requestId: ${requestId} | 状态: ${session.status} | 已有chunk数: ${session.chunks.length}`
+      );
     }
 
-    if (session.status === "done" || session.status === "error") {
-      replayStreamChunks(session, ctx.res, 0);
-      ctx.res.end();
-      return;
-    }
-
-    subscribeStreamSession(session, ctx.res);
-    replayStreamChunks(session, ctx.res, 0);
-
-    ctx.req.on("close", () => {
-      const currentSession = getStreamSession(session.requestId);
-      if (currentSession) {
-        unsubscribeStreamSession(currentSession, ctx.res);
-      }
-    });
-  }
-
-  async resume(ctx) {
-    const { requestId, lastChunkId = 0 } = ctx.request.body;
-    await validate.nonEmptyString("requestId", requestId, "requestId不能为空");
-
-    const session = getStreamSession(requestId);
-    if (!session) {
-      throw {
-        msg: "流会话不存在或已过期",
-        code: 404,
-        validate: null,
-      };
-    }
-
-    setupSSEHeaders(ctx);
+    // 处理已完成或出错的会话
     if (session.status === "done" || session.status === "error") {
       replayStreamChunks(session, ctx.res, Number(lastChunkId) || 0);
       ctx.res.end();
       return;
     }
 
+    // 订阅会话并重放数据（从 lastChunkId 之后开始）
     subscribeStreamSession(session, ctx.res);
-    replayStreamChunks(session, ctx.res, Number(lastChunkId) || 0);
+
+    const replayCount = replayStreamChunks(session, ctx.res, Number(lastChunkId) || 0);
+    if (replayCount > 0) {
+      console.log(
+        `[🔌 后端调试] 重放数据块 | 从 chunk ${lastChunkId} 开始，重放了 ${replayCount} 个数据块`
+      );
+    }
+
+    // 监听客户端断开连接
     ctx.req.on("close", () => {
-      const currentSession = getStreamSession(requestId);
+      const currentSession = getStreamSession(session.requestId);
       if (currentSession) {
         unsubscribeStreamSession(currentSession, ctx.res);
       }

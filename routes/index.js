@@ -13,8 +13,7 @@ router.post("/postU", user.postUser); // 提交用户信息
 
 // 对话接口
 router.post("/chatMessage", chat.chatMessage);
-router.post("/chatMessage/stream", chatStream.create);
-router.post("/chatMessage/resume", chatStream.resume);
+router.post("/chatMessage/stream", chatStream.unified);
 
 // 文件上传接口
 router.post("/uploadFile", uploadFile.single("file"), chat.uploadFile);

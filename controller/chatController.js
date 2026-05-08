@@ -25,7 +25,7 @@ class ChatController {
     let messages = [
       {
         role: "system",
-        content: config.aliyun.systemContent,
+        content: config.aiPrompt.systemContent,
       },
       ...chatMessages,
     ];
